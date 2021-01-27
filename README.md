@@ -10,11 +10,11 @@ Steps
 1. Break up the plaintext into bigrams i.e. ATTACK AT DAWN --> AT TA CK AT DA WN<br />
 An 'X' (or some other character) may have to be appended to ensure theplaintext is an even length.
 2. Using the four 'squares', two plain alphabet squares and two cipher alphabet squares, locate the bigram to encrypt in the plain alphabet squares. The example below enciphers the bigram 'AT'. The first letter is located from the top left square, the second letter is located in the bottom right square.<br />
-  a b c d e   E X A M P<br />
-  f g h i j   L B C D F<br />
-  k l m n o   G H I J K<br />
-  p r s t u   N O R S T<br />
-  v w x y z   U V W Y Z<br />
+a b c d e   E X A M P<br />
+f g h i j   L B C D F<br />
+k l m n o   G H I J K<br />
+p r s t u   N O R S T<br />
+v w x y z   U V W Y Z<br />
 <br />
   K E Y W O   a b c d e<br />
   R D A B C   f g h i j<br />
