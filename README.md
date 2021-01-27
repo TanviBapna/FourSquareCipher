@@ -10,28 +10,26 @@ Steps
 1. Break up the plaintext into bigrams i.e. ATTACK AT DAWN --> AT TA CK AT DA WN<br />
 An 'X' (or some other character) may have to be appended to ensure theplaintext is an even length.
 2. Using the four 'squares', two plain alphabet squares and two cipher alphabet squares, locate the bigram to encrypt in the plain alphabet squares. The example below enciphers the bigram 'AT'. The first letter is located from the top left square, the second letter is located in the bottom right square.<br />
-a b c d e&nbsp;&nbsp;   E X A M P<br />
-f g h i j&nbsp;&nbsp;   L B C D F<br />
-k l m n o&nbsp;&nbsp;   G H I J K<br />
-p r s t u&nbsp;&nbsp;   N O R S T<br />
-v w x y z&nbsp;&nbsp;   U V W Y Z<br />
-<br />
-&nbsp;&nbsp;K E Y W O&nbsp;&nbsp;   a b c d e<br />
-&nbsp;&nbsp;R D A B C&nbsp;&nbsp;   f g h i j<br />
-&nbsp;&nbsp;F G H I J&nbsp;&nbsp;   k l m n o<br />
-&nbsp;&nbsp;L M N P S&nbsp;&nbsp;   p r s t u<br />
-&nbsp;&nbsp;T U V X Z&nbsp;&nbsp;   v w x y z<br />
+&nbsp;&nbsp;&nbsp;&nbsp;a b c d e&nbsp;&nbsp;   E X A M P<br />
+&nbsp;&nbsp;&nbsp;&nbsp;f g h i j&nbsp;&nbsp;   L B C D F<br />
+&nbsp;&nbsp;&nbsp;&nbsp;k l m n o&nbsp;&nbsp;   G H I J K<br />
+&nbsp;&nbsp;&nbsp;&nbsp;p r s t u&nbsp;&nbsp;   N O R S T<br />
+&nbsp;&nbsp;&nbsp;&nbsp;v w x y z&nbsp;&nbsp;   U V W Y Z<br />
+&nbsp;&nbsp;&nbsp;&nbsp;K E Y W O&nbsp;&nbsp;   a b c d e<br />
+&nbsp;&nbsp;&nbsp;&nbsp;R D A B C&nbsp;&nbsp;   f g h i j<br />
+&nbsp;&nbsp;&nbsp;&nbsp;F G H I J&nbsp;&nbsp;   k l m n o<br />
+&nbsp;&nbsp;&nbsp;&nbsp;L M N P S&nbsp;&nbsp;   p r s t u<br />
+&nbsp;&nbsp;&nbsp;&nbsp;T U V X Z&nbsp;&nbsp;   v w x y z<br />
 3. Locate the characters in the ciphertext at the corners of the rectangle that the letters 'AT' make:<br />
-&nbsp;&nbsp;a b c d e&nbsp;&nbsp;   E X A M P<br />
-&nbsp;&nbsp;f g h i j&nbsp;&nbsp;   L B C D F<br />
-&nbsp;&nbsp;k l m n o&nbsp;&nbsp;   G H I J K<br />
-&nbsp;&nbsp;p r s t u&nbsp;&nbsp;   N O R S T<br />
-&nbsp;&nbsp;v w x y z&nbsp;&nbsp;   U V W Y Z<br />
-<br />
-&nbsp;&nbsp;K E Y W O&nbsp;&nbsp;   a b c d e<br />
-&nbsp;&nbsp;R D A B C&nbsp;&nbsp;   f g h i j<br />
-&nbsp;&nbsp;F G H I J&nbsp;&nbsp;   k l m n o<br />
-&nbsp;&nbsp;L M N P S&nbsp;&nbsp;   p r s t u<br />
-&nbsp;&nbsp;T U V X Z&nbsp;&nbsp;   v w x y z<br />
+&nbsp;&nbsp;&nbsp;&nbsp;a b c d e&nbsp;&nbsp;   E X A M P<br />
+&nbsp;&nbsp;&nbsp;&nbsp;f g h i j&nbsp;&nbsp;   L B C D F<br />
+&nbsp;&nbsp;&nbsp;&nbsp;k l m n o&nbsp;&nbsp;   G H I J K<br />
+&nbsp;&nbsp;&nbsp;&nbsp;p r s t u&nbsp;&nbsp;   N O R S T<br />
+&nbsp;&nbsp;&nbsp;&nbsp;v w x y z&nbsp;&nbsp;   U V W Y Z<br />
+&nbsp;&nbsp;&nbsp;&nbsp;K E Y W O&nbsp;&nbsp;   a b c d e<br />
+&nbsp;&nbsp;&nbsp;&nbsp;R D A B C&nbsp;&nbsp;   f g h i j<br />
+&nbsp;&nbsp;&nbsp;&nbsp;F G H I J&nbsp;&nbsp;   k l m n o<br />
+&nbsp;&nbsp;&nbsp;&nbsp;L M N P S&nbsp;&nbsp;   p r s t u<br />
+&nbsp;&nbsp;&nbsp;&nbsp;T U V X Z&nbsp;&nbsp;   v w x y z<br />
 4. Using the above keys, the bigram 'AT' is encrypted to 'ML'. 
 The text 'attackatdawn', with the keys 'example' and 'keyword', becomes mmowpammewwg
