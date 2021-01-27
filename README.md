@@ -1,5 +1,5 @@
-#Four-Square Cipher
-##INTRODUCTION
+# Four-Square Cipher
+## INTRODUCTION
 ####The Four-square cipher encrypts pairs of letters (like playfair), which makes it significantly stronger than substitution ciphers etc. since frequency analysis becomes much more difficult.
 ####Felix Delastelle (1840 - 1902) invented the four-square cipher, first published in a book in 1902. Delastelle was most famous for his invention of several systems of polygraphic substitution ciphers including bifid, trifid, and the four-square cipher.
 
